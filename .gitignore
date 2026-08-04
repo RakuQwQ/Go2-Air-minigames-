@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Dance routines saved by Dance Commander
+dance_routine_*.json
+

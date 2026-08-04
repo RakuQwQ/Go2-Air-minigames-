@@ -1,0 +1,20 @@
+# Go2 Air Minigames - Required Dependencies
+#
+# NOTE: Some games have additional optional dependencies (see each game's header).
+#
+# Core WebRTC library for Go2 robots (includes aiortc, aiohttp, cryptography, pycryptodome, requests)
+git+https://github.com/tfoldi/go2-webrtc.git#subdirectory=python
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: For joystick game (joystick_pilot.py)
+# pygame>=2.5.0
+
+# Optional: For gesture control game (gesture_control.py)
+# numpy>=1.24.0
+# opencv-python>=4.8.0
+# mediapipe>=0.10.0
+
+# Optional: For enhanced terminal UI
+# colorama>=0.4.6
